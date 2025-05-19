@@ -1,13 +1,3 @@
-*
-!*/
-!*.*
-.DS_Store
-# Ignore everything
-*
-
-# But keep folders
-!*/
-
 # Keep Pascal source files
 !*.pas
 !*.pp

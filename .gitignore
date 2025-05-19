@@ -2,3 +2,32 @@
 !*/
 !*.*
 .DS_Store
+# Ignore everything
+*
+
+# But keep folders
+!*/
+
+# Keep Pascal source files
+!*.pas
+!*.pp
+!*.inc
+
+# Ignore compiled output
+*.o
+*.ppu
+*.a
+*.rst
+*.exe
+*.ppl
+*.compiled
+*.s
+
+# macOS metadata
+.DS_Store
+
+# Lazarus/IDE-specific (optional)
+*.bak
+*.log
+lib/
+backup/
